@@ -6,7 +6,11 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(-10 % 2);
+            string testWord = "lemon";
+            
+            testWord = testWord.ToUpper();
+            
+            Console.WriteLine(testWord);
         }
     }
 }
